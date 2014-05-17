@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#FFCCCCCC">
+        
+ <EditTextPreference
+      android:key="StudentID"
+      android:title="@string/setting_studentID_title"
+	  android:summary="@string/setting_studentID_desc"
+	  android:defaultValue="[NOT_SET]"
+	  android:background="#FFCCCCCC"
+	  />
+ 
+</PreferenceScreen>
