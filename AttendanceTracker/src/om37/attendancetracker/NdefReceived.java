@@ -54,7 +54,6 @@ public class NdefReceived extends Activity {
 	String unixTimeString;
 	String tagText;
 	String username;
-	
 
 	String responseText;
 
