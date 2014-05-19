@@ -3,7 +3,7 @@ package globals;
 public class Globals {
 	
 	public static final String ERR_NO_NDEF_MESSAGE="No NDEF messages created from parcelable";
-	public static final String ERR_NO_RAW_MESSAGE = "No correctly formeds NDEF messages found";
+	public static final String ERR_NO_RAW_MESSAGE = "No correctly formed NDEF messages found";
 	public static final String ERR_NO_ROOM_NUMBER = "No room number on tag";
 	public static final String ERR_NO_USERNAME = "Username not set. Change in app settings!";
 	
