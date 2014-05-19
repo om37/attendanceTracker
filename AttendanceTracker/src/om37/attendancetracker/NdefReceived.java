@@ -191,7 +191,8 @@ public class NdefReceived extends Activity {
 			public void run() 
 			{
 				hideResponseView();
-				String username = Preferences.getName(getApplicationContext());
+				username = Preferences.getName(getApplicationContext()).replaceAll("[^a-zA-Z0-9]+","");
+				
 
 				BasicNameValuePair id = new BasicNameValuePair("studentId", username);//studentId		
 				BasicNameValuePair rm = new BasicNameValuePair("roomNum", tagText);//roomNum				
