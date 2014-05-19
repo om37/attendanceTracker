@@ -8,6 +8,14 @@ import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
 
 
+/**
+ * Use this class to get and set username setting
+ * Use PreferenceManager to read/write from preferences
+ * file.
+ * Commit changes to username in onPause()/onDestroy() 
+ * @author Odie
+ *
+ */
 public class Preferences extends PreferenceActivity {
 	
 	SharedPreferences settings;
@@ -25,6 +33,7 @@ public class Preferences extends PreferenceActivity {
 		return PreferenceManager.getDefaultSharedPreferences(con)
 				.getString(Globals.STUDENT_ID, Globals.STUDENT_ID_DEF);
 	}
+	
 	
 	@Override
 	protected void onPause() 
